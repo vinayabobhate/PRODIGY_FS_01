@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("/static/css/img.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #191825;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8F43EE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #5BE7C4;
+}
+
+.signup-button {
+    width: 96%;
+    padding: 10px;
+    background-color: #8F43EE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.signup-button:hover {
+    background-color: #6e2c91;
+}
+
+.login-button {
+    width: 96%;
+    padding: 10px;
+    background-color: #8F43EE;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #6e2c91;
+}
+
+/* New styles for welcome page */
+.welcome-container {
+    text-align: center;
+    padding: 100px;
+    background-color: #191825; 
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.welcome-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.dummy-text {
+    margin: auto;
+    font-size: 1.2em;
+    width: 75%;
+}
+
+/* Logout button style */
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #8F43EE;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #ddd;
+}

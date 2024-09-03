@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="/register" method="post">
+            <label for="username">Username (Email):</label>
+            <input type="email" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="password-criteria">
+                <h3>Password Criteria:</h3>
+                <ul>
+                    <li>Length between 5 to 16 characters</li>
+                    <li>At least one digit</li>
+                    <li>At least one uppercase letter</li>
+                    <li>At least one lowercase letter</li>
+                    <li>At least one special character (e.g., @, #, $, %, &amp;)</li>
+                </ul>
+            </div>
+
+            <button type="submit" class="register-button">Register</button>
+        </form>
+        <a href="/login" class="login-button">Already have an account? Login here</a>
+    </div>
+</body>
+</html>
