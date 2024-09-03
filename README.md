@@ -21,8 +21,8 @@ This is a simple Flask-based authentication system that allows users to register
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/flask-auth-system.git
-    cd flask-auth-system
+    git clone https://github.com/vinayabobhate/PRODIGY_FS_01.git
+    cd PRODIGY_FS_01
     ```
 
 2. Install the required dependencies:
